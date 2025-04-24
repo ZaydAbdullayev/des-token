@@ -70,6 +70,18 @@ export const App = () => {
         <p className="final-line">{">> ☠️ irreversible state achieved"}</p>
       </section>
 
+      <section className="token-info">
+        <h2>Token Information</h2>
+        <div className="info-token-box">
+          <h4>Contract Address</h4>
+          <p className="copy">0x1234567890abcdef1234567890abcdef12345678</p>
+        </div>
+        <div className="info-token-box">
+          <h4>Token Standard</h4>
+          <p>ERC-20</p>
+        </div>
+      </section>
+
       <section className="info-grid">
         <div className="info-box">
           <h4>Current Supply</h4>
